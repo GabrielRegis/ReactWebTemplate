@@ -1,5 +1,5 @@
 import { createAction } from 'redux-actions';
-import { LoginActionType } from './types';
+import { LoginActionType } from 'app/Store/Login/types';
 import { Omit } from 'react-redux';
 import { Authentication } from 'app/Models/Authentication';
 export const LoginActions = {

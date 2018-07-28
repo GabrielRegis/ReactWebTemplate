@@ -7,7 +7,7 @@
 
 import { applyMiddleware, compose, createStore, Reducer, Middleware, StoreCreator, Store, StoreEnhancer } from 'redux';
 import sagaMiddlewareFactory, { Monitor, SagaIterator, SagaMiddleware } from 'redux-saga';
-import { RootState } from './reducers';
+import { RootState } from 'app/store/reducers';
 
 export default (rootReducer: Reducer<RootState>, rootSaga: () => SagaIterator) => {
     const middleware: Middleware[] = [];

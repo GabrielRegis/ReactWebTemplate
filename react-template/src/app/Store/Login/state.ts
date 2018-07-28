@@ -1,4 +1,4 @@
-import { HttpRequestStatus } from '../../Models/HttpRequestStatus';
+import { HttpRequestStatus } from 'app/Models/HttpRequestStatus';
 import { ImmutableObject } from 'seamless-immutable';
 
 export interface LoginState {

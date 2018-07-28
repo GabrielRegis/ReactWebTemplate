@@ -1,10 +1,10 @@
 import { AnyAction } from 'redux';
 import { createReducer, ActionOf } from 'reduxsauce';
 import * as Immutable from 'seamless-immutable';
-import { ImmutableLoginState, LoginState } from './state';
-import { LoginActionType } from './types';
-import { HttpRequestStatus } from '../../Models/HttpRequestStatus';
-import { Authentication } from '../../Models/Authentication';
+import { ImmutableLoginState, LoginState } from 'app/Store/Login/state';
+import { LoginActionType } from 'app/Store/Login/types';
+import { HttpRequestStatus } from 'app/Models/HttpRequestStatus';
+import { Authentication } from 'app/Models/Authentication';
 
 const INITIAL_STATE: ImmutableLoginState = Immutable.from<LoginState>({
     status: HttpRequestStatus.NOOP,

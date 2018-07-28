@@ -1,8 +1,8 @@
 import { combineReducers, Reducer } from 'redux';
-import { RootState } from './state';
+import { RootState } from 'app/store/state';
 import { routerReducer, RouterState } from 'react-router-redux';
-import rootSagas from './sagas';
-import configureStore from './store';
+import rootSagas from 'app/store/sagas';
+import configureStore from 'app/store/store';
 export { RootState, RouterState };
 
 // tslint:disable-next-line:prefer-const

@@ -1,5 +1,5 @@
 import apisauce, { ApisauceInstance } from 'apisauce';
-import AppConfig from '../Configuration/AppConfig';
+import AppConfig from 'app/Configuration/AppConfig';
 
 const instance = (baseURL: string = AppConfig.apiUrl || 'http://localhost:8080/api'): ApisauceInstance => {
     const api: ApisauceInstance = apisauce.create({

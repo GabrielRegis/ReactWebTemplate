@@ -1,5 +1,5 @@
 import { ApiResponse } from 'apisauce';
-import { api } from '../api';
+import { api } from 'app/Api/api';
 
 const LoginApi = () => {
     const login = (): Promise<ApiResponse<any>> => {

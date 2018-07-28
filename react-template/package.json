@@ -52,6 +52,8 @@
         "webpack-dev-server": "^3.1.4"
     },
     "dependencies": {
+        "@types/seamless-immutable": "^7.1.2",
+        "apisauce": "^0.15.2",
         "classnames": "^2.2.6",
         "react": "^16.4.0",
         "react-dom": "^16.4.0",

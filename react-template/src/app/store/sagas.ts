@@ -1,7 +1,7 @@
-import { all } from 'redux-saga/effects';
+import { all, takeLatest } from 'redux-saga/effects';
+import { LoginActions } from 'app/Store/Login/actions';
+import { login } from 'app/Store/Login/sagas';
 
 export default function* rootSagas() {
-    yield all([
-        // takeLatest(StartupActions.startup, startup),
-    ]);
+    yield all([takeLatest(LoginActions.login, login)]);
 }

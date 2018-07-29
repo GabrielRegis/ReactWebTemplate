@@ -30,7 +30,9 @@ export const AppColors = {
         endColor: '#ffffff'
     } as ColorScheme,
     spectrumBabyBlue: {
-        beginColor: '#68ead0',
-        endColor: '#56b8e5'
-    } as ColorScheme
+        beginColor: '#56b8e5',
+        endColor: '#68ead0'
+    } as ColorScheme,
+    white: '#ffffff',
+    blueGrayBackground: '#ecf2f5'
 };

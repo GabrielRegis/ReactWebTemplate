@@ -19,7 +19,10 @@ export class LinearGradientView extends React.Component<LinearGradientView.Props
             width: '100%',
             height: '100vh',
             backgroundImage: linearGradientString,
-            backgroundSize: 'cover'
+            backgroundSize: 'cover',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
         } as React.CSSProperties;
 
         return <div style={linearGradientStyle}>{this.props.children}</div>;

@@ -1,5 +1,9 @@
 export const AppStyles = {
+    spectrumView: {
+        fontFamily: 'Roboto-Light'
+    } as React.CSSProperties,
     backgroundContainer: {
+        fontFamily: 'Roboto-Light',
         width: '100%',
         height: '100vh',
         display: 'flex',
@@ -9,6 +13,7 @@ export const AppStyles = {
         margin: 0
     } as React.CSSProperties,
     foregroundContainer: {
+        fontFamily: 'Roboto-Light',
         width: '100%',
         height: '100vh',
         padding: '2vh',
